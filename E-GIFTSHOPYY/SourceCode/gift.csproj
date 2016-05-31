@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{08555B3B-FBBA-49DA-946E-E138FCF0108A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>gift</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About Us\frmAboutus.aspx" />
+    <Content Include="About Us\TEST.aspx" />
+    <Content Include="Admin\AdminCatalog\adminBrand\frmBrandList.aspx" />
+    <Content Include="Admin\AdminCatalog\adminBrand\ucBrandList.ascx" />
+    <Content Include="Admin\AdminCatalog\adminCategory\frmCategoriesList.aspx" />
+    <Content Include="Admin\AdminCatalog\adminCategory\ucategoryListl.ascx" />
+    <Content Include="Admin\AdminCatalog\adminProduct\frmProductList.aspx" />
+    <Content Include="Admin\AdminCatalog\adminProduct\ucProductList.ascx" />
+    <Content Include="Admin\AdminCatalog\AdminUsers\frmUsersList.aspx" />
+    <Content Include="Admin\AdminCatalog\AdminUsers\ucUsersList.ascx" />
+    <Content Include="Admin\AdminCatalog\Images\background_fullwidth.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\banner1.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\banner14.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\banner2.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\banner7.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\Bar1.bmp" />
+    <Content Include="Admin\AdminCatalog\Images\benner11.bmp" />
+    <Content Include="Admin\AdminCatalog\Images\Blue hills.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\bottombanner_people.png" />
+    <Content Include="Admin\AdminCatalog\Images\btn_addtocart.gif" />
+    <Content Include="Admin\AdminCatalog\Images\buy-but.gif" />
+    <Content Include="Admin\AdminCatalog\Images\cancel.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\cancel1.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\cancel11.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\close.gif" />
+    <Content Include="Admin\AdminCatalog\Images\Contact Us.gif" />
+    <Content Include="Admin\AdminCatalog\Images\core-nav-bg.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\Cort_Image.gif" />
+    <Content Include="Admin\AdminCatalog\Images\delete.gif" />
+    <Content Include="Admin\AdminCatalog\Images\Edit.gif" />
+    <Content Include="Admin\AdminCatalog\Images\F224200781003.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\FA_FadingRollovers.js" />
+    <Content Include="Admin\AdminCatalog\Images\Header_Brands.gif" />
+    <Content Include="Admin\AdminCatalog\Images\icon_download_event.gif" />
+    <Content Include="Admin\AdminCatalog\Images\icon_event.gif" />
+    <Content Include="Admin\AdminCatalog\Images\img1.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\imgCCHPMeBAAGSignedOut.gif" />
+    <Content Include="Admin\AdminCatalog\Images\imgEcheck.gif" />
+    <Content Include="Admin\AdminCatalog\Images\imgHdrLiveHelpIcon.gif" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima1.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima2.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima3.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima4.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima5.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima6.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\inner_ima7.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\loading.gif" />
+    <Content Include="Admin\AdminCatalog\Images\movedown.gif" />
+    <Content Include="Admin\AdminCatalog\Images\moveup.gif" />
+    <Content Include="Admin\AdminCatalog\Images\notavailable.gif" />
+    <Content Include="Admin\AdminCatalog\Images\print.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\rollimages.js" />
+    <Content Include="Admin\AdminCatalog\Images\Search.gif" />
+    <Content Include="Admin\AdminCatalog\Images\signin.gif" />
+    <Content Include="Admin\AdminCatalog\Images\slideshow_inner.js" />
+    <Content Include="Admin\AdminCatalog\Images\stars-4.gif" />
+    <Content Include="Admin\AdminCatalog\Images\style.css" />
+    <Content Include="Admin\AdminCatalog\Images\submit.gif" />
+    <Content Include="Admin\AdminCatalog\Images\Sunset.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\tile_back.gif" />
+    <Content Include="Admin\AdminCatalog\Images\Untitled-30.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\update.gif" />
+    <Content Include="Admin\AdminCatalog\Images\update11.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\Water lilies.jpg" />
+    <Content Include="Admin\AdminCatalog\Images\weaccept.gif" />
+    <Content Include="Admin\AdminCatalog\Images\wf1_notavailable.gif" />
+    <Content Include="Admin\AdminCatalog\Images\Winter.jpg" />
+    <Content Include="Admin\frmadmin.aspx" />
+    <Content Include="Admin\LoginHistory.aspx" />
+    <Content Include="Admin\LogoutHistory.aspx" />
+    <Content Include="Admin\Order\Controls\ucOrdersList.ascx" />
+    <Content Include="Admin\Order\frmOrdersList.aspx" />
+    <Content Include="Admin\Order\ucOrderMgnt.ascx" />
+    <Content Include="App_Data\ASPNETDB.MDF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\aspnetdb_log.ldf">
+      <DependentUpon>ASPNETDB.MDF</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_WebReferences\ServiceReference1\configuration.svcinfo" />
+    <Content Include="App_WebReferences\ServiceReference1\configuration91.svcinfo" />
+    <Content Include="App_WebReferences\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_WebReferences\ServiceReference1\WebService.disco" />
+    <Content Include="Browse\Content.css" />
+    <Content Include="Browse\Controls\ProductDetails\ucBrandName.ascx" />
+    <Content Include="Browse\Controls\ProductDetails\ucOffers.ascx" />
+    <Content Include="Browse\Controls\ProductDetails\ucProddesc.ascx" />
+    <Content Include="Browse\Controls\ProductDetails\ucProdFeatures.ascx" />
+    <Content Include="Browse\Controls\ProductDetails\ucProductImgName.ascx" />
+    <Content Include="Browse\Controls\Rating\ucRating.ascx" />
+    <Content Include="Browse\Controls\ucAllBrands.ascx" />
+    <Content Include="Browse\Controls\ucAllCategories.ascx" />
+    <Content Include="Browse\Controls\ucBrandProducts.ascx" />
+    <Content Include="Browse\Controls\ucCategoryProducts.ascx" />
+    <Content Include="Browse\Controls\ucPopularBrands.ascx" />
+    <Content Include="Browse\Controls\ucPopularCategories.ascx" />
+    <Content Include="Browse\Controls\ucPopularTypes.ascx" />
+    <Content Include="Browse\Controls\ucRefertoFriend.ascx" />
+    <Content Include="Browse\Controls\ucRightTemplate.ascx" />
+    <Content Include="Browse\frmAllBrands.aspx" />
+    <Content Include="Browse\frmAllCategories.aspx" />
+    <Content Include="Browse\frmBrandsProducts.aspx" />
+    <Content Include="Browse\frmCategoriesProducts.aspx" />
+    <Content Include="Browse\frmNewlyAddedProducts.aspx" />
+    <Content Include="Browse\frmProductDetails.aspx" />
+    <Content Include="Browse\frmRating.aspx" />
+    <Content Include="Browse\frmrefertofriend.aspx" />
+    <Content Include="Browse\frmTypesProducts.aspx" />
+    <Content Include="Browse\frmUpcomingProduct.aspx" />
+    <Content Include="Browse\images6.jpg" />
+    <Content Include="Browse\Images\344px-Mickey_Mouse.svg.png" />
+    <Content Include="Browse\Images\4b62584e746631416f6247384d34366f2d4e41-100x100-0-0.jpg" />
+    <Content Include="Browse\Images\appliquehanddyed.jpg" />
+    <Content Include="Browse\Images\ATT178517.jpg" />
+    <Content Include="Browse\Images\ATT178518.jpg" />
+    <Content Include="Browse\Images\ATT178520.jpg" />
+    <Content Include="Browse\Images\ATT178522.jpg" />
+    <Content Include="Browse\Images\ATT178523.jpg" />
+    <Content Include="Browse\Images\bananashirt_75x75.jpg" />
+    <Content Include="Browse\Images\banner1.jpg" />
+    <Content Include="Browse\Images\banner14.jpg" />
+    <Content Include="Browse\Images\banner2.jpg" />
+    <Content Include="Browse\Images\banner22.jpg" />
+    <Content Include="Browse\Images\banner7.jpg" />
+    <Content Include="Browse\Images\benner11.bmp" />
+    <Content Include="Browse\Images\Blazer.jpg" />
+    <Content Include="Browse\Images\bottombanner_people.png" />
+    <Content Include="Browse\Images\bugfrog.jpg" />
+    <Content Include="Browse\Images\BuyNow.gif" />
+    <Content Include="Browse\Images\BuyNow.png" />
+    <Content Include="Browse\Images\chocchips.jpg" />
+    <Content Include="Browse\Images\close.gif" />
+    <Content Include="Browse\Images\colouful.jpg" />
+    <Content Include="Browse\Images\colourful1.jpg" />
+    <Content Include="Browse\Images\colourful2.jpg" />
+    <Content Include="Browse\Images\cooltext83683960.gif" />
+    <Content Include="Browse\Images\core-nav-bg.jpg" />
+    <Content Include="Browse\Images\delete.gif" />
+    <Content Include="Browse\Images\Desert.jpg" />
+    <Content Include="Browse\Images\Detail.gif" />
+    <Content Include="Browse\Images\details.gif" />
+    <Content Include="Browse\Images\details.png" />
+    <Content Include="Browse\Images\doc.gif" />
+    <Content Include="Browse\Images\dottedfab.jpg" />
+    <Content Include="Browse\Images\duralee.jpg" />
+    <Content Include="Browse\Images\Edit.gif" />
+    <Content Include="Browse\Images\elegacyhanddyed.jpg" />
+    <Content Include="Browse\Images\eshopping.GIF" />
+    <Content Include="Browse\Images\F224200781003.jpg" />
+    <Content Include="Browse\Images\fab.jpg" />
+    <Content Include="Browse\Images\fabrics.jpg" />
+    <Content Include="Browse\Images\fabsoocer.jpg" />
+    <Content Include="Browse\Images\familyreunion.jpg" />
+    <Content Include="Browse\Images\feelingfabric.jpg" />
+    <Content Include="Browse\Images\flralfancy.jpg" />
+    <Content Include="Browse\Images\go-button-rollover.gif" />
+    <Content Include="Browse\Images\Halloween.jpg" />
+    <Content Include="Browse\Images\handdyedfish.jpg" />
+    <Content Include="Browse\Images\header.JPG" />
+    <Content Include="Browse\Images\headermain.jpg" />
+    <Content Include="Browse\Images\HO-FW07-BLO-thumb.jpg" />
+    <Content Include="Browse\Images\HouseHolds.jpg" />
+    <Content Include="Browse\Images\icon_download_event.gif" />
+    <Content Include="Browse\Images\icon_event.gif" />
+    <Content Include="Browse\Images\image00.jpg" />
+    <Content Include="Browse\Images\image111.jpg" />
+    <Content Include="Browse\Images\images.jpg" />
+    <Content Include="Browse\Images\images1.jpg" />
+    <Content Include="Browse\Images\images11.jpg" />
+    <Content Include="Browse\Images\images6.jpg" />
+    <Content Include="Browse\Images\images7.jpg" />
+    <Content Include="Browse\Images\img1.jpg" />
+    <Content Include="Browse\Images\imgad.gif" />
+    <Content Include="Browse\Images\kfc.jpg" />
+    <Content Include="Browse\Images\kfc2wr4.jpg" />
+    <Content Include="Browse\Images\kid.jpg" />
+    <Content Include="Browse\Images\kids.jpg" />
+    <Content Include="Browse\Images\Koala.jpg" />
+    <Content Include="Browse\Images\Lee.gif" />
+    <Content Include="Browse\Images\lenin.jpg" />
+    <Content Include="Browse\Images\loading.gif" />
+    <Content Include="Browse\Images\LogoMaker2.gif" />
+    <Content Include="Browse\Images\logout.gif" />
+    <Content Include="Browse\Images\man.gif" />
+    <Content Include="Browse\Images\Mayur.gif" />
+    <Content Include="Browse\Images\men.gif" />
+    <Content Include="Browse\Images\Men.JPG" />
+    <Content Include="Browse\Images\mickeyminniemousevalentinesheartheliumballoon.jpg" />
+    <Content Include="Browse\Images\Mickey_Mouse1_S.gif" />
+    <Content Include="Browse\Images\Mickey_Mouse_Fantasia_S.gif" />
+    <Content Include="Browse\Images\Mickey_Mouse_love-1.gif" />
+    <Content Include="Browse\Images\movedown.gif" />
+    <Content Include="Browse\Images\moveup.gif" />
+    <Content Include="Browse\Images\nicholashaslam.jpg" />
+    <Content Include="Browse\Images\ojjas_stormbrraingear.jpg" />
+    <Content Include="Browse\Images\PayCards.gif" />
+    <Content Include="Browse\Images\Penguins.jpg" />
+    <Content Include="Browse\Images\peterfasano.jpg" />
+    <Content Include="Browse\Images\polyster.jpg" />
+    <Content Include="Browse\Images\pothys-120x30.gif" />
+    <Content Include="Browse\Images\print.jpg" />
+    <Content Include="Browse\Images\printed.jpg" />
+    <Content Include="Browse\Images\PV-F07-DMT-thumb.jpg" />
+    <Content Include="Browse\Images\Raymond.gif" />
+    <Content Include="Browse\Images\Raymond.jpg" />
+    <Content Include="Browse\Images\Search.gif" />
+    <Content Include="Browse\Images\shirts.jpg" />
+    <Content Include="Browse\Images\slipperyfabric.jpg" />
+    <Content Include="Browse\Images\sofafabrics.jpg" />
+    <Content Include="Browse\Images\Suit.jpg" />
+    <Content Include="Browse\Images\Sunset.jpg" />
+    <Content Include="Browse\Images\sunshine.jpg" />
+    <Content Include="Browse\Images\swathces.jpg" />
+    <Content Include="Browse\Images\SWeekend-Assortment.jpg" />
+    <Content Include="Browse\Images\terryfab.jpg" />
+    <Content Include="Browse\Images\thaiandindo.jpg" />
+    <Content Include="Browse\Images\ties.jpg" />
+    <Content Include="Browse\Images\tile_back.gif" />
+    <Content Include="Browse\Images\trousers.jpg" />
+    <Content Include="Browse\Images\Tulips.jpg" />
+    <Content Include="Browse\Images\t_shirts.gif" />
+    <Content Include="Browse\Images\Untitled-30.jpg" />
+    <Content Include="Browse\Images\update.gif" />
+    <Content Include="Browse\Images\verticalimg.gif" />
+    <Content Include="Browse\Images\W-FW07-SWD-thumb.jpg" />
+    <Content Include="Browse\Images\Water lilies.jpg" />
+    <Content Include="Browse\Images\weaccept.gif" />
+    <Content Include="Browse\Images\wf1_notavailable.gif" />
+    <Content Include="Browse\Images\Winter.jpg" />
+    <Content Include="Browse\Images\Womens.jpg" />
+    <Content Include="Browse\Images\Womens1.jpg" />
+    <Content Include="Cart\frmShoppingCart.aspx" />
+    <Content Include="Cart\frmShoppingCart2.aspx" />
+    <Content Include="Cart\ucShopping.ascx" />
+    <Content Include="Contact Us\frmContactUs.aspx" />
+    <Content Include="Contact Us\ucContactUs.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Featured Products\frmFeaturedProducts.aspx" />
+    <Content Include="Featured Products\ucFeaturedp.ascx" />
+    <Content Include="Gallery\frmGallery.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="MyAccount\frmChangeAccountDetails.aspx" />
+    <Content Include="MyAccount\frmMyAccount.aspx" />
+    <Content Include="MyAccount\ucChangeDetails.ascx" />
+    <Content Include="myNewBanner.swf" />
+    <Content Include="OrderDetails\frmOrderDetails.aspx" />
+    <Content Include="OrderDetails\frmOrderStatus.aspx" />
+    <Content Include="OrderDetails\frmSubmitOrderno.aspx" />
+    <Content Include="OrderDetails\ucOrderDetails.ascx" />
+    <Content Include="OrderDetails\ucOrderStatus.ascx" />
+    <Content Include="OrderDetails\ucSubmitOrderno.ascx" />
+    <Content Include="Payment\frmPayment.aspx" />
+    <Content Include="Payment\UcPayment.ascx" />
+    <Content Include="Registration\frmChangePassword.aspx" />
+    <Content Include="Registration\frmForgotPassword.aspx" />
+    <Content Include="Registration\frmLogin.aspx" />
+    <Content Include="Registration\frmNewUser.aspx" />
+    <Content Include="Registration\RContols\ucForgotPassword.ascx" />
+    <Content Include="Registration\RContols\ucRegistration.ascx" />
+    <Content Include="Registration\RContols\ucResetPassword.ascx" />
+    <Content Include="ShipingBilling\frmShipping.aspx" />
+    <Content Include="ShipingBilling\ucShipping.ascx" />
+    <Content Include="SiteMap\frmSitemap.aspx" />
+    <Content Include="SiteMap\ucSitemap.ascx" />
+    <Content Include="stylesht.css" />
+    <Content Include="Templates\Default\controls\default.ascx" />
+    <Content Include="Templates\Default\controls\ucFooter.ascx" />
+    <Content Include="Templates\Default\controls\ucHeader.ascx" />
+    <Content Include="Templates\Default\controls\ucLeft.ascx" />
+    <Content Include="Thanks page\frmThanks.aspx" />
+    <Content Include="WishList\frmWishList.aspx" />
+    <Content Include="WishList\ucWishList.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us\frmAboutus.aspx.cs">
+      <DependentUpon>frmAboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About Us\TEST.aspx.cs">
+      <DependentUpon>TEST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminBrand\frmBrandList.aspx.cs">
+      <DependentUpon>frmBrandList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminBrand\ucBrandList.ascx.cs">
+      <DependentUpon>ucBrandList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminCategory\frmCategoriesList.aspx.cs">
+      <DependentUpon>frmCategoriesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminCategory\ucategoryListl.ascx.cs">
+      <DependentUpon>ucategoryListl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminProduct\frmProductList.aspx.cs">
+      <DependentUpon>frmProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\adminProduct\ucProductList.ascx.cs">
+      <DependentUpon>ucProductList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\AdminUsers\frmUsersList.aspx.cs">
+      <DependentUpon>frmUsersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCatalog\AdminUsers\ucUsersList.ascx.cs">
+      <DependentUpon>ucUsersList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadmin.aspx.cs">
+      <DependentUpon>frmadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginHistory.aspx.cs">
+      <DependentUpon>LoginHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LogoutHistory.aspx.cs">
+      <DependentUpon>LogoutHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Order\Controls\ucOrdersList.ascx.cs">
+      <DependentUpon>ucOrdersList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Order\frmOrdersList.aspx.cs">
+      <DependentUpon>frmOrdersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Order\ucOrderMgnt.ascx.cs">
+      <DependentUpon>ucOrderMgnt.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\AES_Algorithim.cs" />
+    <Compile Include="App_WebReferences\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ProductDetails\ucBrandName.ascx.cs">
+      <DependentUpon>ucBrandName.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ProductDetails\ucOffers.ascx.cs">
+      <DependentUpon>ucOffers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ProductDetails\ucProddesc.ascx.cs">
+      <DependentUpon>ucProddesc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ProductDetails\ucProdFeatures.ascx.cs">
+      <DependentUpon>ucProdFeatures.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ProductDetails\ucProductImgName.ascx.cs">
+      <DependentUpon>ucProductImgName.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\Rating\ucRating.ascx.cs">
+      <DependentUpon>ucRating.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucAllBrands.ascx.cs">
+      <DependentUpon>ucAllBrands.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucAllCategories.ascx.cs">
+      <DependentUpon>ucAllCategories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucBrandProducts.ascx.cs">
+      <DependentUpon>ucBrandProducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucCategoryProducts.ascx.cs">
+      <DependentUpon>ucCategoryProducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucPopularBrands.ascx.cs">
+      <DependentUpon>ucPopularBrands.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucPopularCategories.ascx.cs">
+      <DependentUpon>ucPopularCategories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucPopularTypes.ascx.cs">
+      <DependentUpon>ucPopularTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucRefertoFriend.ascx.cs">
+      <DependentUpon>ucRefertoFriend.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\Controls\ucRightTemplate.ascx.cs">
+      <DependentUpon>ucRightTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmAllBrands.aspx.cs">
+      <DependentUpon>frmAllBrands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmAllCategories.aspx.cs">
+      <DependentUpon>frmAllCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmBrandsProducts.aspx.cs">
+      <DependentUpon>frmBrandsProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmCategoriesProducts.aspx.cs">
+      <DependentUpon>frmCategoriesProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmNewlyAddedProducts.aspx.cs">
+      <DependentUpon>frmNewlyAddedProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmProductDetails.aspx.cs">
+      <DependentUpon>frmProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmRating.aspx.cs">
+      <DependentUpon>frmRating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmrefertofriend.aspx.cs">
+      <DependentUpon>frmrefertofriend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmTypesProducts.aspx.cs">
+      <DependentUpon>frmTypesProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\frmUpcomingProduct.aspx.cs">
+      <DependentUpon>frmUpcomingProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\MasterPage1.master.cs">
+      <DependentUpon>MasterPage1.master</DependentUpon>
+    </Compile>
+    <Compile Include="Cart\frmShoppingCart.aspx.cs">
+      <DependentUpon>frmShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart\frmShoppingCart2.aspx.cs">
+      <DependentUpon>frmShoppingCart2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart\ucShopping.ascx.cs">
+      <DependentUpon>ucShopping.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us\frmContactUs.aspx.cs">
+      <DependentUpon>frmContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us\ucContactUs.ascx.cs">
+      <DependentUpon>ucContactUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Featured Products\frmFeaturedProducts.aspx.cs">
+      <DependentUpon>frmFeaturedProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Featured Products\ucFeaturedp.ascx.cs">
+      <DependentUpon>ucFeaturedp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery\frmGallery.aspx.cs">
+      <DependentUpon>frmGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\frmChangeAccountDetails.aspx.cs">
+      <DependentUpon>frmChangeAccountDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\frmMyAccount.aspx.cs">
+      <DependentUpon>frmMyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ucChangeDetails.ascx.cs">
+      <DependentUpon>ucChangeDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\frmOrderDetails.aspx.cs">
+      <DependentUpon>frmOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\frmOrderStatus.aspx.cs">
+      <DependentUpon>frmOrderStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\frmSubmitOrderno.aspx.cs">
+      <DependentUpon>frmSubmitOrderno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\ucOrderDetails.ascx.cs">
+      <DependentUpon>ucOrderDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\ucOrderStatus.ascx.cs">
+      <DependentUpon>ucOrderStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails\ucSubmitOrderno.ascx.cs">
+      <DependentUpon>ucSubmitOrderno.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\frmPayment.aspx.cs">
+      <DependentUpon>frmPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\UcPayment.ascx.cs">
+      <DependentUpon>UcPayment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\frmChangePassword.aspx.cs">
+      <DependentUpon>frmChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\frmForgotPassword.aspx.cs">
+      <DependentUpon>frmForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\frmNewUser.aspx.cs">
+      <DependentUpon>frmNewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RContols\ucForgotPassword.ascx.cs">
+      <DependentUpon>ucForgotPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RContols\ucRegistration.ascx.cs">
+      <DependentUpon>ucRegistration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RContols\ucResetPassword.ascx.cs">
+      <DependentUpon>ucResetPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ShipingBilling\frmShipping.aspx.cs">
+      <DependentUpon>frmShipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShipingBilling\ucShipping.ascx.cs">
+      <DependentUpon>ucShipping.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMap\frmSitemap.aspx.cs">
+      <DependentUpon>frmSitemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMap\ucSitemap.ascx.cs">
+      <DependentUpon>ucSitemap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\AdminMaster.master.cs">
+      <DependentUpon>AdminMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\controls\default.ascx.cs">
+      <DependentUpon>default.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\controls\ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\controls\ucHeader.ascx.cs">
+      <DependentUpon>ucHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\controls\ucLeft.ascx.cs">
+      <DependentUpon>ucLeft.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Default\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Thanks page\frmThanks.aspx.cs">
+      <DependentUpon>frmThanks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WishList\frmWishList.aspx.cs">
+      <DependentUpon>frmWishList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WishList\ucWishList.ascx.cs">
+      <DependentUpon>ucWishList.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\AdminCatalog\Images\Thumbs.db" />
+    <None Include="App_WebReferences\ServiceReference1\WebService.wsdl" />
+    <None Include="Browse\Images\Thumbs.db" />
+    <None Include="Browse\MasterPage1.master" />
+    <None Include="Templates\Default\AdminMaster.master" />
+    <None Include="Templates\Default\MasterPage.master" />
+    <None Include="Web.Config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

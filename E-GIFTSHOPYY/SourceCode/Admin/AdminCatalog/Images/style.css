@@ -1,0 +1,438 @@
+BODY {
+ 
+background-image:url(bg.jpg); 
+background-repeat:repeat-x; margin:0px; background-color:#000000;
+} 
+.heading {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	FONT-FAMILY: Verdana,  Verdana;
+	color: #000000;
+
+}
+
+.message {
+	FONT-SIZE: 16px;
+	COLOR: #F2c100;
+	FONT-FAMILY:  Verdana;
+	font-weight: normal;
+
+}
+B {
+	COLOR: #000080
+}
+
+P {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	font-weight: normal;
+
+}
+
+.topxextlinks {
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+}
+.topxextlinks A {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY:  Verdana; TEXT-DECORATION: none
+}
+.topxextlinks A:hover {
+	FONT-SIZE: 10px; COLOR: #FF0000; FONT-FAMILY:  Verdana; TEXT-DECORATION: underline
+}
+.leftlinks {
+	FONT-SIZE: 11px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY:  Georgia, "Times New Roman", Times, serif;
+	TEXT-DECORATION: underline;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px;
+}
+.leftlinks A {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: underline;
+	font-weight: normal;
+}
+.leftlinks A:hover {
+	FONT-SIZE: 11px;
+	COLOR: #FF0000;
+	FONT-FAMILY:  Verdana;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.leftlinksw {
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px;
+}
+.leftlinksw A {
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+}
+.leftlinksw A:hover {
+	FONT-SIZE: 11px;
+	COLOR: yellow;
+	FONT-FAMILY:  Verdana;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.leftlinkssamll {
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px;
+}
+.leftlinkssamll A {
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+}
+.leftlinkssamll A:hover {
+	FONT-SIZE: 9px;
+	COLOR: #FF0000;
+	FONT-FAMILY:  Verdana;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+
+
+.rightlinks {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY:  "Courier New", Courier, mono;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.rightlinks A {
+	FONT-SIZE: 11px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY:  "Courier New", Courier, mono;
+	TEXT-DECORATION: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.rightlinks A:hover {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: "Courier New", Courier, mono;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.botlinks {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+.botlinks A {
+	FONT-SIZE: 11px; COLOR: #339933; FONT-FAMILY:  Verdana; TEXT-DECORATION: underline
+}
+.botlinks A:hover {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 12px; FONT-FAMILY:  Verdana; TEXT-DECORATION: none
+}
+.email {
+	FONT-SIZE: 11px;
+	COLOR: #0000CC;
+	FONT-FAMILY:  Verdana;
+	font-weight: bold;
+}
+.email A {
+	FONT-SIZE: 11px; COLOR: #0000CC; FONT-FAMILY:  Verdana;	font-weight: bold;
+}
+.email A:hover {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 12px; FONT-FAMILY:  Verdana;	font-weight: bold;
+}
+
+.boldlink {
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY:  Verdana;
+	font-weight: bold;
+}
+.boldlink A {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY:  Verdana;	font-weight: bold;
+}
+.boldlink A:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 12px; FONT-FAMILY:  Verdana;	font-weight: bold;
+}
+
+.subheading {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-FAMILY:  Verdana;
+	color: #000000;
+}
+
+.button {
+	FONT-SIZE: 11px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	background-color: #68775A;
+	border: 1px solid #000000;
+
+
+}
+.address {
+	font-family:  Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+.maintable {
+	border: 1px solid #000000;
+
+}
+.flashtable {
+
+	border: 3px solid #02AB0A;
+}
+.textbox {
+	FONT-SIZE:12px;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	background-color: #FFFFA0;
+	border: 1px solid #000000;
+}
+.bodytextbold {
+
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: verdana;
+	font-weight: bold;
+}
+.usercontrol {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	FONT-FAMILY:  Verdana;
+	color: #000000;
+}
+.mandatory {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	FONT-FAMILY:  Verdana;
+	color: #FF0000;
+}
+.error {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	FONT-FAMILY:  Verdana;
+	color: #FF0000;
+}
+.leftlinksCopy {
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY:  verdana;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.Bigling {
+
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+	font-weight: bold;
+}
+.submedihead {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	FONT-FAMILY: Verdana,  Verdana;
+	color: #FF0000;
+	font-style: normal;
+
+}
+.subheadingCopy {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-FAMILY:  Verdana;
+	color: #FF0000;
+	text-decoration: none;
+
+
+}
+.bodytextCopy {
+
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+	font-weight: normal;
+}
+.bodytextsmall {
+
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+}
+.bodytext {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: verdana;
+	font-weight: normal;
+	line-height: 21px;
+}
+.star {
+	FONT-SIZE: 12px;
+	COLOR: red;
+	FONT-FAMILY: verdana;
+	font-weight: normal;
+	line-height: 21px;
+}
+td {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: verdana;
+	font-weight: normal;
+	line-height: 21px;
+}
+.bodytextalign {
+
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Georgia;
+	font-weight: normal;
+	line-height: 22px;
+}
+.headingbig {
+	background: url('../images/background_nav_main.gif') repeat-x;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Verdana,  Verdana;
+	/*background-color:#D7B829;*/
+	color: #ffffff;
+}
+.contenttdbg{ background-image:url(content_bg.gif); background-repeat:repeat-x;
+	 background-color:White;
+	}
+	
+	#navtop, #navbottom
+{
+    background: url('../images/background_nav_main.gif') repeat-x;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana, Helvetica, Helvetica-Narrow, Tahoma, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 950px;
+    height: 45px;
+    color:#ffffff;
+}
+
+A.whitelinks:link {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none;
+	FONT-FAMILY: "Verdana"; 
+	font-weight: bold;
+}
+A.whitelinks:visited {
+	FONT-SIZE: 11px;
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none;
+	FONT-FAMILY: "Verdana"; 
+	font-weight: bold;
+}
+
+A.whitelinks:hover {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: "Verdana"; 
+	COLOR: #ffffff; TEXT-DECORATION:underline;
+	font-weight: bold;
+}
+
+A.whitelinks:active {
+	FONT-SIZE: 11px;	FONT-FAMILY: "Verdana";  COLOR: #ffffff; 
+	font-weight: bold;
+}
+
+#navbottom
+{
+    margin-top: 15px;
+}
+
+.fullwidth, #loginbanner
+{
+    border: 1px solid #DBDB79;
+    /*width: 694px;*/
+    margin-right: auto;
+    margin-left: auto;
+    background: #FEFFAB url('images/background_fullwidth.jpg') repeat-y;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#footer
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 1px;
+    padding-bottom: 5px;
+    color: #C89F3D;
+   background: #FEFFAB url('images/background_fullwidth.jpg') repeat-y;
+}
+.dashedline
+{
+    border-bottom: 1px dashed #DBCE6A;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    clear:right;
+}
+.button {
+		BORDER: #000000 1px solid; 
+		FONT-WEIGHT: bold; 
+		FONT-SIZE: 8pt; 
+		COLOR: #FFFFFF; 
+		FONT-FAMILY: Verdana; 
+		BACKGROUND-COLOR:#51652C; 
+		TEXT-DECORATION: none;
+		cursor:hand;
+	vertical-align:top;
+	height:20px;
+	
+}
+.textbox {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	FONT-FAMILY:  Verdana;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	vertical-align:middle;
+	 
+}

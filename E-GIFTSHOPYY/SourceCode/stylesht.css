@@ -1,0 +1,68 @@
+﻿body 
+{
+	background-color:White;
+	font-family:Verdana;
+	font-size:small;
+	font-weight:normal;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	
+}
+li
+{
+	font-family:Verdana;
+	font-size:small;
+	font-weight:normal;
+    width: 195px;
+}
+h3
+{
+	color:Orange;
+	font-family:Verdana;
+}
+
+h4
+{
+	color:Gray;
+	font-family:Verdana;
+}
+p
+{
+	color:Gray;
+	font-size:small;
+	font-family:Verdana;
+  display:table;
+  padding:4;	
+ 
+}
+.text
+{
+	color:Gray;
+}
+a
+{	
+	color:#cc9966;
+	font-family:Verdana;
+	font-size:small;
+}
+a:link
+{
+	color:red;
+	text-decoration:none;
+}
+a:visited
+{
+	color:Maroon;
+	text-decoration:none;
+}
+a:active
+{
+	color:Green;
+	text-decoration:none;
+}
+td.sitemap
+{
+	text-align:left;
+}

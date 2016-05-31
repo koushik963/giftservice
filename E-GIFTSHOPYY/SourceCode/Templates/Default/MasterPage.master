@@ -1,0 +1,75 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Templates_Default_MasterPage" %>
+<%@ Register Src="../../Browse/Controls/ucPopularCategories.ascx" TagName="ucPopularCategories"
+    TagPrefix="uc7" %>
+<%@ Register Src="../../Browse/Controls/ucRightTemplate.ascx" TagName="ucRightTemplate"
+    TagPrefix="uc6" %>
+<%@ Register Src="../../Browse/Controls/ucPopularBrands.ascx" TagName="ucPopularBrands"
+    TagPrefix="uc4" %>
+<%@ Register Src="../../Browse/Controls/ucPopularTypes.ascx" TagName="ucPopularTypes"
+    TagPrefix="uc5" %>
+<%@ Register Src="controls/ucHeader.ascx" TagName="ucHeader" TagPrefix="uc1" %>
+<%@ Register Src="controls/ucFooter.ascx" TagName="ucFooter" TagPrefix="uc2" %>
+<%@ Register Src="controls/ucLeft.ascx" TagName="ucLeft" TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>E-Gift Shoppy</title>
+    <link rel="stylesheet" href="../../stylesht.css" type="text/css" />
+    <style type="text/css">
+        .style2
+        {
+            width: 16%;
+            height: 436px;
+        }
+        .style3
+        {
+            width: 66%;
+            height: 436px;
+        }
+        .style4
+        {
+            width: 20%;
+            height: 436px;
+        }
+    </style>
+    </head>
+<body style="margin:0">
+    <form id="form1" runat="server">
+    <div>
+        <table style="width:100%"; border="1" cellpadding="2" cellspacing="0">
+            <tr>
+                <td id="tdheader" colspan="3" valign="top">
+                    <uc1:ucHeader ID="UcHeader1" runat="server" />
+                </td>
+            </tr>
+            <tr><td colspan="2">
+                    <asp:Label ID="lblUser" runat="server" Text="Welcome Guest" BackColor="White" Font-Bold="True" Font-Italic="True" ForeColor="#FF8080"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblt" runat="server" Font-Bold="False" Font-Names="Verdana" Font-Size="XX-Small"></asp:Label></td>
+                    </tr>
+            <tr id="trbody">
+                <td align="left" valign="top" class="style2">
+                
+                    &nbsp;<br />
+                </td>
+                <td align="center" valign="top" class="style3"> <%-- background-color:#ccccff"--%>
+                    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:contentplaceholder>
+                </td>
+                <td align="left" valign="top" class="style4">
+                    </td>
+            </tr>
+            <tr>
+            <td colspan="3">
+                <br />
+            
+            </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

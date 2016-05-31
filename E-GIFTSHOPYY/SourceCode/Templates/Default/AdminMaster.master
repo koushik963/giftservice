@@ -1,0 +1,49 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Templates_Default_AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Welcome to Admin E-Gift Shoppy</title>
+    <script language="javascript" src="http://localhost/EGiftShopee/Admin/AdminCatalog/images/FA_FadingRollovers.js" type="text/javascript"></script>
+    <script language="javascript" src="http://localhost/EGiftShopee/Admin/AdminCatalog/images/rollimages.js" type="text/javascript"></script>
+    <script language="javascript" src="http://localhost/EGiftShopee/Admin/AdminCatalog/images/slideshow_inner.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="http://localhost/EGiftShopee/Admin/AdminCatalog/images/style.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background:White">
+    <tr>
+    <td width="80%" colspan="2" style="height: 140px">
+    <asp:Image ID="img1" runat="server" ImageUrl="~/Browse/Images/banner22.jpg" style="height: 142px; width: 100%" />
+        </td>
+ 
+  </tr>
+ 
+  <tr>
+            <td align="right" colspan="2" class="YellowBG" style="text-align: center; height: 24px;">
+                ||
+             <asp:HyperLink ID="hlRoleName" runat="server" cssclass="email" NavigateUrl="~/Admin/frmAdmin.aspx">Admin Home</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:HyperLink ID="HyperLink1" runat="server" cssclass="email" NavigateUrl="~/Admin/Admincatalog/AdminBrand/frmBrandList.aspx">Manage Brands</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:HyperLink ID="hlChangePassword" runat="server" cssclass="email" NavigateUrl="~/Admin/Admincatalog/Admincategory/frmCategoriesList.aspx">Manage Categories</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:HyperLink ID="HyperLink3" runat="server" cssclass="email" NavigateUrl="~/Admin/Admincatalog/AdminUsers/frmUsersList.aspx">Manage Users</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:HyperLink ID="HyperLink2" runat="server" cssclass="email" NavigateUrl="~/Admin/Admincatalog/AdminProduct/frmProductList.aspx">Manage Products</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:HyperLink ID="HyperLink4" runat="server" cssclass="email" NavigateUrl="~/Admin/Order/frmOrdersList.aspx">Manage Orders</asp:HyperLink>&nbsp;|&nbsp;
+             <asp:LinkButton ID="lnkLogout" runat="server" cssclass="email" OnClick="lnkLogout_Click">Logout</asp:LinkButton>
+                ||</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" class="YellowBG" height="405">
+          <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+          </asp:contentplaceholder></td></tr>
+   <tr>
+    <td colspan="2" valign="top" align="center" width="100%">
+    <div id="footer" >
+         Copyright &copy 2013 - 2014 &nbsp;E-Gift Shoppy Industries. &nbsp;All Rights Reserved.
+    </div>
+    </td>
+  </tr>
+</table>
+    </form>
+</body>
+</html>
